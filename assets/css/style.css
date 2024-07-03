@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none !important;
+    list-style-type: none !important;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.min-vh-100 {
+    min-height: 100vh;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-content-center {
+    align-content: center;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.bg-color {
+    background-color: #0C0B0B;
+}
+
+.heading {
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 61.44px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.card {
+
+    height: 154px;
+    border-radius: 10px;
+    border: 1px solid #444444;
+    background: linear-gradient(94.88deg, rgba(255, 255, 255, 0.1) 0.97%, rgba(255, 255, 255, 0) 103.14%);
+    padding: 16px 20px;
+    justify-content: space-between;
+        gap: 20px;
+}
+
+.page {
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.mt-16 {
+    margin-top: 16px;
+}
+
+.buy {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25.2px;
+    text-align: left;
+    color: #BCBCBC;
+    white-space: nowrap;
+}
+
+.rate {
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 42px;
+    text-align: left;
+    color: #F06500;
+}
+
+
+
+.rate-color {
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 42px;
+    text-align: left;
+}
+
+.s-card {
+    width: 92px;
+    height: 67px;
+    
+}
+
+.card1 {
+
+    height: 154px;
+    border-radius: 10px;
+    border: 1px solid #444444;
+    background: linear-gradient(94.88deg, rgba(255, 255, 255, 0.05) 0.97%, rgba(255, 255, 255, 0) 103.14%);
+    padding: 16px 20px;
+
+}
+
+.position-relative {
+    position: relative;
+}
+
+.imageBox {
+    position: relative;
+}
+
+.imageBox::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    background: linear-gradient(95.21deg, rgba(255, 255, 255, 0.2) -0.59%, rgba(255, 255, 255, 0.092) 106.99%);
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+}
+
+.tablebox {
+    position: relative;
+}
+
+.tablebox::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    background: linear-gradient(95.21deg, rgba(255, 255, 255, 0.2) -0.59%, rgba(255, 255, 255, 0.092) 106.99%);
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+}
+
+.box {
+    min-width: 50px;
+    height: 50px;
+    background: #00E396;
+    /* margin-left: 157px; */
+    margin-bottom: 15px;
+}
+
+.name {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32.4px;
+    text-align: left;
+    color: #FFFFFF;
+    padding-top: 4px;
+        padding-left: 24px;
+
+}
+
+
+
+.mb-24 {
+    margin-bottom: 24px;
+}
+
+.p-60 {
+    padding: 60px;
+}
+
+.bg-1 {
+    background: #F06500;
+}
+
+.bg-2 {
+    background: #8B35E2;
+}
+
+.bg-3 {
+    background: #00B2FF;
+}
+
+.bg-4 {
+    background: #FFA800;
+}
+
+.bg-5 {
+    background: #FF4560;
+}
+
+.card4 {
+    max-width: 315px;
+}
+
+
+
+.table1 {
+    border-collapse: collapse;
+    width: 100%;
+    overflow-x: auto;
+}
+
+.table,
+tr,
+td,
+th {
+    border: 0;
+}
+
+.simple {
+    background: #0C0C0C;
+
+
+}
+
+.overflowAuto {
+    overflow: auto;
+}
+
+.text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 15px 15px;
+    white-space: nowrap;
+
+}
+
+.same {
+    background: linear-gradient(94.88deg, rgba(255, 255, 255, 0.05) 0.97%, rgba(255, 255, 255, 0) 103.14%);
+}
+
+.text1 {
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32.4px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 17px 25px;
+}
+
+.text2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32.4px;
+    text-align: center;
+    color: #B9B8B8;
+    padding: 15px 15px;
+}
+
+.imageBox {
+    background: linear-gradient(94.88deg, rgba(255, 255, 255, 0.05) 0.97%, rgba(255, 255, 255, 0) 103.14%);
+}
+
+.col-12 {
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.mb-24 {
+    margin-bottom: 24px;
+}
+
+.py-70 {
+    padding-top:  70px;
+    padding-bottom: 70px;
+}
+
+@media(min-width:576px) {
+    .col-sm-6 {
+        width: 50%;
+        padding-left: 12px;
+        padding-bottom: 12px;
+    }
+    .py-70{
+        padding: 30px;
+    }
+}
+
+@media(min-width:768px) {
+    /* .col-md-4{
+        width: 33.33%;
+        padding-left: 12px;
+        padding-right: 12px;
+    } */
+
+    .mb-md-0 {
+        margin-bottom: 0;
+
+    }
+    
+    
+}
+
+@media(min-width:992px) {
+    .col-lg-4 {
+        width: 33.33%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .mb-lg-0 {
+        margin-bottom: 0;
+    }
+       
+              
+}
